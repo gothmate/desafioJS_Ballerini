@@ -79,4 +79,10 @@ header h1 {
   font-family: "Roboto", sans-serif;
 }
 
+@media (max-width: 590px) {
+  .container {
+    width: 95%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
