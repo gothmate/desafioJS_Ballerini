@@ -69,7 +69,14 @@ header h1 {
 }
 
 .res1, .res2, .res3 {
-  color: #FFF2E7B2;
+  color: #f1d039;
+}
+.res1 h2, .res2 h2, .res3 h2 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.1rem;
+}
+.res1 p, .res2 p, .res3 p {
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

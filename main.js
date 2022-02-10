@@ -83,7 +83,7 @@ function desafio3() {
         }
     }
 
-    res3.innerHTML += `<h4>${frase.value}</h4>`;
+    res3.innerHTML += `<h2>${frase.value}</h2><br/>`;
     res3.innerHTML += `<p>${nome.value} escreveu ${cFrase} frases;</p>`;
     res3.innerHTML += `<p>num total de ${cPalavras + 1} palavras.</p>`;
 }
