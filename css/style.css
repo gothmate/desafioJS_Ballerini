@@ -79,6 +79,15 @@ header h1 {
   font-family: "Roboto", sans-serif;
 }
 
+footer {
+  padding: 3rem;
+  color: #FFF2E7;
+}
+footer p {
+  text-align: center;
+  font-size: 2rem;
+}
+
 @media (max-width: 590px) {
   .container {
     width: 95%;

@@ -32,13 +32,14 @@ function desafio2() {
     if (resto >= 0.25) {
         moedaVinteCinco = 1;
         resto = resto - 0.25;
-        console.log('resto: ' + resto.toFixed(2));
+        // console.log('resto: ' + resto.toFixed(2));
     }
     if (resto >= 0.1) {
         moedaDez = resto * 10;
+        console.log(resto - Math.round(moedaDez) / 10);
         console.log('moedas de 0.10: ' + Math.round(moedaDez));
         resto = resto - Math.round(moedaDez) / 10;
-        console.log('resto: ' + resto.toFixed(2));
+        // console.log('resto: ' + resto.toFixed(2));
     }
     if (resto >= 0.05) {
         moedaCinco = resto * 20;
